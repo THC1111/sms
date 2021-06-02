@@ -5,9 +5,9 @@ auth_token = 'dbc3fd4ac3fa1815901f50d7fd3db1f9'
 client = Client(account_sid, auth_token) 
  
 message = client.messages.create(  
-                              from_='+12018826993', 
+                              from_='''sender's phone number''', 
                               body='HEY! you gotta work harder. THIS IS ME FROM THE ZTM TEXTER - SRISHTI ',      
-                              to='+919354467701' 
+                              to='''recepient's phone number here'''
                           ) 
  
 print(message.sid)
